@@ -17,15 +17,3 @@ def load_files(file_list):
         citation_blocks.append(root)
 
     return citation_blocks
-
-
-# Test line to run below
-'''
-loaded_blocks = load_files(init.file_list)
-
-for file in loaded_blocks:
-    for citations in file:
-        print(len(citations))
-        for child in citations:
-            print(child.tag, child.attrib)
-'''

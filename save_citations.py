@@ -20,15 +20,7 @@ def save_citations(citations):
         count += 1
 
     file = open(init.output_file_path + "common.xml", mode='wb')
-    print(tostring(xml))
     file.write(tostring(xml))
-    ElementTree(xml).write(sys.stdout)
-    #ElementTree(xml).write(file)
-
-    # try:
-    #
-    # except():
-    #     count = -1
 
     return count
 

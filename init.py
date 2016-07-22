@@ -8,5 +8,3 @@ file_list = []
 
 for file in files:
     file_list.append(input_file_path + file)
-
-# print(file_list)
